@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background: linear-gradient(135deg, #1f1f1f, #141414);
+    padding: 80px 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    color: #ffffff;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #cccccc;
+  }
+  
+  /* Header Icons */
+  .header-icons {
+    margin-top: 20px;
+  }
+  
+  .header-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .header-icons a img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .header-icons a:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #1b1b1b;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #4fc3f7;
+  }
+  
+  /* Section Spacing */
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  section h2::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #4fc3f7;
+    margin: 10px auto 0;
+    display: block;
+  }
+  
+  /* Card-style Containers */
+  .card {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Skills Section */
+  .skills-group {
+    margin-bottom: 20px;
+  }
+  
+  .skills-group h3 {
+    border-bottom: 1px solid #4fc3f7;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-group li {
+    margin: 8px 0;
+  }
+  
+  /* Group Technical Skills into 3 Solid Categories */
+  .subskills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .subskill-category h4 {
+    border-bottom: 1px solid #4fc3f7;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+  }
+  
